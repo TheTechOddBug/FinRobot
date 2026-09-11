@@ -26,6 +26,26 @@
 ![Visitors](https://api.visitorbadge.io/api/VisitorHit?user=AI4Finance-Foundation&repo=FinRobot&countColor=%23B17A)
 [![Discord](https://dcbadge.limes.pink/api/server/trsr8SXpW5?v=20260320)](https://discord.gg/trsr8SXpW5)
 
+## 🧬 Architecture Evolution
+
+FinRobot evolves alongside the rapid development of AI-agent frameworks. Rather than being tied to a single agent stack, each generation explores how emerging agent architectures can improve financial analysis, research, and decision-making.
+
+| Version | Agent Framework | Project | Availability | Focus |
+|---|---|---|---|---|
+| **V0** | AutoGen | [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot ) | Open source | The original FinRobot multi-agent architecture for financial applications |
+| **V1** | OpenAI Agents SDK | [finrobot_equity](./finrobot_equity/) | Open source | Equity-research agents, financial analysis, valuation, and automated report generation |
+| **V2** | PydanticAI | [FinRobot V2](https://finrobot.ai/v2 ) | Available online; source code not yet open-sourced | Structured, type-safe agent workflows for professional equity research |
+| **V3** | DeepSeek-Harness | FinRobot V3 | In development | A more autonomous architecture for financial analysis and decision-making |
+
+> **Our philosophy:** FinRobot is not defined by any single agent framework. We continuously adopt, evaluate, and evolve with state-of-the-art agent architectures while keeping the financial domain layer, tools, workflows, deterministic computation, and decision-making capabilities at the core.
+
+### Version Notes
+
+- **V0** is the original open-source FinRobot framework in this repository, built on **AutoGen**.
+- **V1** is the open-source [`finrobot_equity`](./finrobot_equity/) project in this repository, focused on AI-powered equity research and report generation.
+- **V2** is currently available as an online product at [finrobot.ai/v2](https://finrobot.ai/v2 ); its source code has not yet been open-sourced.
+- **V3** is under active development and explores a more autonomous agent architecture based on **DeepSeek-Harness**.
+
 ## 🚀 FinRobot Desktop v0.1.0 Released
 
 We are excited to announce the first public release of **FinRobot Desktop v0.1.0** — a native desktop equity research cockpit powered by a production-grade multi-agent architecture.
